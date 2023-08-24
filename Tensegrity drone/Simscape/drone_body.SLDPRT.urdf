@@ -1,0 +1,43 @@
+<robot
+  name="drone_body.SLDPRT">
+  <link
+    name="drone_body">
+    <inertial>
+      <origin
+        xyz="4.4291E-17 -0.00022677 -4.358E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.17838" />
+      <inertia
+        ixx="0.000910404472688649"
+        ixy="3.57883271095375E-19"
+        ixz="-1.8956743099855E-20"
+        iyy="0.00090921851956839"
+        iyz="2.57230549695904E-08"
+        izz="0.0017807239423749" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone_body/meshes/drone_body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone_body/meshes/drone_body.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="ccw.sldprt">
+  <link
+    name="ccw.sldprt">
+    <inertial>
+      <origin
+        xyz="2.3945E-07 -6.8987E-07 -0.0079188"
+        rpy="0 0 0" />
+      <mass
+        value="0.0093667" />
+      <inertia
+        ixx="1.00454563166894E-05"
+        ixy="-4.84022247215686E-10"
+        ixz="1.17593540268101E-12"
+        iyy="1.00442228278482E-05"
+        iyz="5.05444034849701E-11"
+        izz="1.98828502857333E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ccw.sldprt/meshes/ccw.sldprt.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ccw.sldprt/meshes/ccw.sldprt.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

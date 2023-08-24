@@ -1,0 +1,43 @@
+<robot
+  name="cccw.sldprt">
+  <link
+    name="cccw">
+    <inertial>
+      <origin
+        xyz="3.0908E-07 -1.5647E-06 0.0051823"
+        rpy="0 0 0" />
+      <mass
+        value="0.0095514" />
+      <inertia
+        ixx="1.02510371559395E-05"
+        ixy="-1.16008268218319E-09"
+        ixz="2.70213735967528E-11"
+        iyy="1.02497908824232E-05"
+        iyz="2.63024871489545E-10"
+        izz="2.02914030154628E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cccw/meshes/cccw.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cccw/meshes/cccw.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
