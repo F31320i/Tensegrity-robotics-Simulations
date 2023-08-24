@@ -1,0 +1,13 @@
+In this version, take consideration of:
+
+bars carrying (a small) battery,
+
+bars carrying a motor
+
+------> batteries and motors are placed symmetrically
+
+In the next version, take consideration of:
+
+length differences in cables ---- same K D different L
+
+change into a big battery, carried inside the tensegrity robot, along with a onboard CPU (not so good, preferrable carrying loads on each bars, since the shape change can be big during jumping process)

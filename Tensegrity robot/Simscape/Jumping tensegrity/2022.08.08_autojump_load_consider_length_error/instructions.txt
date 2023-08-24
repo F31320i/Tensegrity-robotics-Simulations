@@ -1,0 +1,10 @@
+In this version, take consideration of:
+
+Bigger K for torsion spring and bigger torque input
+
+Current K = 1.5 NM/deg  torque input = 80 NM
+
+
+In the next version, take consideration of:
+
+length differences in cables ---- same K D different L

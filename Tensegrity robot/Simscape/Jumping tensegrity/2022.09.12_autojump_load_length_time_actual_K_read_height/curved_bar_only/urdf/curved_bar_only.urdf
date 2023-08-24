@@ -1,0 +1,43 @@
+<robot
+  name="curved_bar_only.SLDPRT">
+  <link
+    name="curved_bar_only">
+    <inertial>
+      <origin
+        xyz="-3.3513E-05 3.6256E-18 -0.084407"
+        rpy="0 0 0" />
+      <mass
+        value="0.024476" />
+      <inertia
+        ixx="3.70970022399732E-05"
+        ixy="3.92486244608682E-10"
+        ixz="1.20779958945145E-07"
+        iyy="0.000544113900541305"
+        iyz="-5.360386917021E-21"
+        izz="0.000507410340567985" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://curved_bar_only/meshes/curved_bar_only.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://curved_bar_only/meshes/curved_bar_only.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
